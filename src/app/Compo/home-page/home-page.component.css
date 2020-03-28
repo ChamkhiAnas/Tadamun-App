@@ -1,0 +1,1013 @@
+.header {
+
+
+    display: none;
+
+
+}
+
+
+
+.rightSide{
+    display: block;
+    position: relative;
+    background-color: #e0ebed;
+    height: 677px;
+    width: 68.5%;
+    z-index: -1;
+    float: right;
+    margin-top: 14px;
+    text-align: right;
+}
+
+.rightSide1{
+    display: block;
+    position: relative;
+    background-color: #e0ebed;
+    height: 677px;
+    width: 100%;
+    z-index: -1;
+    float: right;
+    margin-top: 14px;
+    text-align: center;
+}
+
+
+.leftSide{
+
+
+    position: relative;
+    width: 49.4%;
+    height: 613px;
+    z-index: 1;
+    margin-top: 14px;
+    background-color:black;
+    background-image: url("../../../assets/HomePage/Header.png");
+    background-color: #cccccc;
+    height: 611px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.circle {
+
+    border-radius: 50%;
+    background-color: #e0ebed;
+    border: 2px solid rgba(0,0,0,0.6);
+    height: 24px;
+    width: 24px;
+    float: right;
+    margin-top: 158px;
+    margin-right: 52px;
+
+}
+
+.circle1 {
+    /* border-radius: 50%;
+    background-color: #e0ebed;
+    border: 2px solid rgba(0,0,0,0.6);
+    height: 15px;
+    width: 15px; */
+ 
+    float: right;
+    margin-right: 3px;
+    margin-top: 13px;
+}
+
+.circle1>img{
+    width: 20px;
+    height: 20px;
+    margin-top: 16px;
+}
+
+.firstPara>h1{
+    padding-right: 41px;
+    font-family: "NeoSansArabic-Black";
+    font-size: 54px;
+}
+
+.firstPara{
+    margin-top: 131px;
+    margin-right: 52px;
+}
+
+.firstparagraph {
+    font-size: 16px;
+    color: #1c201f;
+    font-family: "Cocon®-Next-Arabic-Regular";
+    margin-right: 49px;
+    margin-bottom: 0px;
+}
+
+.secondparagraph{
+    font-size: 16px;
+    color: #1c201f;
+    font-family: "Cocon®-Next-Arabic-Regular";
+    margin-right: 49px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.secondparagraph>span {
+
+
+    background-color: #32af91 ;
+    color: white;
+    margin-left: 5px;
+
+}
+
+.thirdparagraph{
+
+    font-size: 16px;
+    color: #1c201f;
+    font-family: "Cocon®-Next-Arabic-Regular";
+    margin-right: 49px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
+
+.thirdparagraph>span{
+
+    background-color: #32af91 ;
+    color: white;
+    margin-left: 5px;
+
+
+}
+
+.btn {
+
+    height: 59px;
+    width: 220px;
+    border-radius: 30px;
+    background-color: black;
+    margin-right: 147px;
+    margin-top: 48px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "NeoSansArabic-Black";
+}
+
+.header2{
+    display: none;
+}
+.circle2{
+
+    float: right;
+    margin-right: 3px;
+    margin-top: 13px;
+}
+
+.smallparap{
+    display: none;
+}
+
+.header1{
+    margin-bottom: 200px;
+}
+@media only screen and (max-width: 1088px) {
+
+
+    .firstPara{
+        margin-right: 10px;
+        margin-top: 40px;
+
+    }
+
+    
+    .firstPara>h1{
+        margin-right: 10px;
+
+    }
+
+
+    .rightSide1{
+
+        margin-top: 0px;
+
+    }
+
+    .header1{
+        display: none;
+    }
+
+    .header2{
+
+        display: grid;
+    }
+
+    .btn {
+        margin-right: 10px;
+    }
+
+    .circle2{
+        display: none;
+    }
+
+    .leftSide{
+
+        width: 100%;
+        margin-top: 30px;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width: 567px) {
+
+
+    .firstPara{
+        font-size: 14px;
+        margin-right: 0px;
+
+    }
+
+    .header1{
+        display: none;
+    }
+
+    .header2>p{
+
+
+        font-size: 15px;
+
+    }
+    
+    .firstparagraph{
+
+        font-size: 14px;
+        margin-right: 0px;
+
+    }
+
+   .secondparagraph{
+
+        font-size: 14px;
+        margin-right: 0px;
+
+
+
+   }
+
+   .thirdparagraph{
+
+        font-size: 14px;
+        margin-right: 0px;
+
+
+
+   }
+
+}
+
+
+@media only screen and (max-width: 420px) {
+
+    .rightSide1{
+
+        text-align: right;
+
+    }
+
+    .firstPara>h1{
+        margin-right: 10px;
+        padding-right: 0px;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 414px) {
+
+
+    .rightSide1{
+
+        height: 483px;
+    }
+
+
+    .smallparap{
+        display: block;
+
+        font-size: 14px;
+        color: #1c201f;
+        font-family: "Cocon®-Next-Arabic-Regular";
+        margin-right: 10px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+
+}
+
+
+.firstparagraph{
+
+    display: none;
+}
+
+.secondparagraph{
+
+    display: none;
+
+}
+
+.thirdparagraph{
+
+    display: none;
+
+
+}
+
+
+
+}
+
+.momayazat{
+
+
+    display: block;
+    direction: rtl;
+
+
+}
+
+.heading{
+ 
+    width: 30%;
+    text-align: center;
+    margin-top: 48px;
+    font-size: 36px;
+    color: #1c201f;
+    font-family: "NeoSansArabic-Black";
+    text-align: center;
+    padding-bottom: 0px;    
+    margin:0 auto;
+
+
+
+}
+
+.subheading{   
+
+    margin-top: 8px;
+    font-size: 22px;
+    color: #838887;
+    font-family: "NeoSansArabic-bold";
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+
+
+.diviser{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rightDiviser{
+    text-align: right;
+    margin-right: 12%;
+    margin-top: 83px;
+    direction: rtl;
+    color: #a4abbb;
+    font-family: "NeoSansArabic-Black";
+}
+
+.rightDiviser>h1{
+    padding-top: 8px;
+    font-size: 36px;
+}
+
+.rightDiviser>h1>a{
+   cursor: pointer;
+}
+
+
+.rightDiviser>h1>a:active{
+    color: black; 
+
+}
+
+.leftDiviser{
+    margin-top: 92px;
+}
+
+
+.bloc{
+
+    height: 363px;
+    width: 436px;
+    background-color: #ebf2f3;
+    border-radius: 25px;
+
+
+}
+
+.blocnav{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr ;
+    padding-top: 45px;
+
+}
+
+.blocnav>button{
+    background-color: #31af90;
+    border: none;
+    color: white;
+    border-radius: 14px;
+    width: 78%;
+    text-align: center;
+    font-family: "NeoSansArabic-Black";
+    font-size: 16px;
+    height: 32px;
+    margin-top: 2px;
+}
+
+#special{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 10px solid black;
+    justify-self: center;
+}
+
+.blocpara1{
+
+    direction: rtl;
+    text-align: right;
+    margin-top: 39px;
+    margin-right: 39px;
+    color: #1c201f;
+    font-family: "NeoSansArabic";
+    font-size: 22px;
+
+
+
+}
+.blocpara1>span{
+
+    color: #1c201f;
+    font-family: "NeoSansArabic-bold";
+    font-size: 22px;
+
+}
+
+
+hr{
+    border-bottom: 1px solid #31af90 ;
+    width: 31%;
+}
+
+
+@media only screen and (max-width: 1107px) {
+
+    .heading{
+        font-size: 30px;
+    }
+    .subheading{
+        font-size: 17px;
+    }
+
+    .rightDiviser>h1{
+        font-size: 28px;
+    }
+
+}
+
+@media only screen and (max-width: 1107px) {
+
+    .heading{
+
+        margin-top: 60px;
+        width: 100%;
+    }
+   
+   
+
+}
+
+@media only screen and (max-width: 922px) {
+
+    .heading{
+
+        margin-top: 60px;
+    }
+    .blocpara1{
+        margin-top: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .diviser {
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+    }
+    .rightDiviser{
+        margin: 0 auto;
+        margin-bottom: 28px;
+        text-align: center;
+        margin-top: 33px;
+    }
+    .leftDiviser{
+        margin: 0 auto;
+    }
+    .subheading {
+        font-size: 17px;
+        }
+}
+
+
+@media only screen and (max-width: 470px) {
+
+   .bloc{
+    width: 349px;
+   }
+   .rightDiviser{    
+    font-size: 20px;
+
+    }
+
+}
+
+@media only screen and (max-width: 340px) {
+
+    .bloc{
+     width: 307px;
+    }
+  
+ 
+ }
+
+ .aboutorders{
+
+    margin-top: 111px;
+    width: 100%;
+    height: 586px;
+    background-color: #e9f1f3;
+ }
+
+ #heading2{
+     padding-top: 97px;
+ }
+ #hr2{
+    border-bottom: 1px solid #31af90;
+    width: 22%;
+ }
+
+ .orderImage {
+
+    text-align: center;
+    margin-top: 79px;
+ }
+
+ .orderImage>img{
+
+    width: 66%;
+
+ }
+ .orderDesc{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 78%;
+    text-align: center;
+    margin: 0 auto;
+    direction: rtl;
+ }
+
+ .headingg{
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+    color: #31af90;
+    font-family: "NeoSansArabic-Bold";
+ }
+
+ .decription {
+    font-family: "Neo Sans Arabic";
+    color: #000000;
+    font-size: 17px;
+ }
+ .order{
+     padding-left: 9px;
+ }
+ @media only screen and (max-width: 770px) {
+    .orderImage> img {
+        width: 73%;
+    }
+    .aboutorders{
+
+        margin-top: 0px;
+    }
+
+ 
+ }
+
+ @media only screen and (max-width: 680px) {
+    .orderImage{
+        display: none;
+    }
+    .orderDesc{
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+    }
+    .aboutorders{
+        height: 754px;
+    }
+ }
+
+ .faq{
+
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 294px;
+
+ }
+
+ .faqWrapper{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    /* padding-right: 200px;
+    padding-left: 200px; */
+    grid-gap: 56px;
+    margin-right: 0px;
+    direction: rtl;
+    margin-top: 60px;
+ }
+ .faqright{
+    margin-right: 165px;
+ }
+ .faqleft{
+    margin-left: 165px;
+ }
+
+ .fr1{
+
+    height: 78px;
+    width: 100%;
+    background-color: #e9f1f3;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    text-align: right;
+    color:#31af90;
+    display: grid;
+    grid-template-columns: 1fr 10fr
+ }
+
+.fl1{
+
+    height: 78px;
+    width: 100%;
+    background-color: #e9f1f3;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    text-align: right;
+    color:#31af90;
+    display: grid;
+    grid-template-columns: 1fr 10fr
+
+
+}
+.fr2{
+
+    height: 78px;
+    width: 100%;
+    background-color: #e9f1f3;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    text-align: right;
+    color: #31af90;
+    display: grid;
+    grid-template-columns: 1fr 10fr
+
+
+ }
+
+.fl2{
+
+    height: 78px;
+    width: 100%;
+    background-color: #e9f1f3;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    text-align: right;
+    color: #31af90;
+    display: grid;
+    grid-template-columns: 1fr 10fr
+
+
+}
+.fr3{
+
+    height: 78px;
+    width: 100%;
+    background-color: #e9f1f3;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    text-align: right;
+    color: #31af90;
+    display: grid;
+    grid-template-columns: 1fr 10fr
+
+
+ }
+
+.fl3{
+
+    height: 78px;
+    width: 100%;
+    background-color: #e9f1f3;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    text-align: right;
+    color: #31af90;
+    display: grid;
+    grid-template-columns: 1fr 10fr
+
+
+}
+
+.add{
+
+    padding-top: 35px;
+    padding-right: 20px;
+    
+    font-size: 16px;
+
+}
+
+.fr1r{
+
+    width: 100%;
+    height: 118px;
+    background-color: #31af90;
+    border-radius: 11px;
+    margin-bottom: 35px;
+    z-index: -1;
+    padding-bottom: 37px;
+    
+}
+
+i{
+    cursor: pointer;
+}
+
+.minus{
+    display: none;
+    padding-top: 35px;
+    padding-right: 20px;
+    
+}
+.btnheading{
+
+    font-size: 16px;
+    padding-top: 34px;
+    padding-right: 11px;
+    font-family: "Neo Sans Arabic";
+    color: #1c201f;
+}
+
+.questionPara{
+    font-family: "Neo Sans Arabic";
+    text-align: right;
+    color: white;
+    padding-top: 15px;
+    font-size: 14px;
+    padding-right: 16px;
+
+}
+
+.fr4{
+    height: 78px;
+    width: 100%;
+    background-color: #e9f1f3;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    text-align: right;
+    color: #31af90;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+.fl4{
+    height: 78px;
+    width: 100%;
+    background-color: #e9f1f3;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    text-align: right;
+    color: #31af90;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+
+.fr5{
+    height: 78px;
+    width: 100%;
+    background-color: #31af90;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    text-align: right;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+
+#buttonmore{
+    font-size: 20px;
+    text-align: right;
+    padding-top: 27px;
+    padding-right: 93px;
+    color: white;
+    font-family: "NeoSansArabic-Bold";
+}
+
+#iconmore {
+    color: white;
+    font-size: 20px;
+    padding-top: 33px;
+    padding-right: 20px;
+}
+.fr6{
+    display: none;
+    height: 78px;
+    width: 100%;
+    background-color: #31af90;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    text-align: right;
+    grid-template-columns: 1fr 10fr;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .faqleft {
+        margin-left: 100px;
+    }
+    .faqright {
+        margin-right: 100px;
+    }
+
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .faqleft {
+        margin-left: 28px;
+    }
+    .faqright {
+        margin-right: 28px;
+    }
+
+
+}
+
+@media only screen and (max-width: 780px) {
+
+    .faqleft {
+        margin-left: 0px;
+    }
+    .faqright {
+        margin-right: 0px;
+    }
+
+
+}
+
+@media only screen and (max-width: 720px) {
+
+    .faqWrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+
+    #heading2 {
+        padding-top: 20px;
+    }
+    .fr1{
+        border-radius: 0px;
+    
+    }
+    .fr2{
+        border-radius: 0px;
+    
+
+    }
+    .fr3{
+        border-radius: 0px;
+    
+
+    }
+    .fr4{
+        border-radius: 0px;
+    
+
+    }
+    .fr5{
+        border-radius: 0px;
+    
+    }
+    .fl1{
+        border-radius: 0px;
+    
+
+    }
+    .fl2{
+        border-radius: 0px;
+    
+
+    }
+    .fl3{
+        border-radius: 0px;
+    
+
+    }
+    .fl4{
+        border-radius: 0px;
+    
+
+    }
+
+
+
+    #lastBox{
+
+        display: block;
+
+    }
+
+    .fr5{
+        display: none;
+    }
+
+    .fr6{
+        height: 78px;
+        width: 100%;
+        background-color: #31af90;
+        border-radius: 0px;
+        margin-bottom: 25px;
+        text-align: right;
+        display: grid;
+        grid-template-columns: 1fr 10fr;
+    }
+
+
+
+}
+
+.box {
+
+   
+
+    width: 100%;
+    height: 609px;
+    background-color: #e9f1f3;
+    text-align: center;
+
+}
+
+.head{
+    margin-top: 61px;
+    background-color: #31af90;
+    border: none;
+    border-radius: 6px;
+    height: 62px;
+    width: 475px;
+    font-size: 28px;
+    color: white;
+    font-family: "NeoSansArabic-Black";
+    margin-bottom: 35px;
+
+
+}
+
+.wrapp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    direction: rtl;
+    margin-bottom: 34px;
+}
+
+.pic{
+    padding-top: 222px;
+}
+
+#box{
+    width: 430px;
+    height: 292px;
+}

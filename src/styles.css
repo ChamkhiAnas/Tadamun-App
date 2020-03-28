@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: 'NeoSansArabic-Light';
+  src: url("../src/assets/Fonts/NeoSansArabic-Light.woff") format("opentype");
+}
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('../src/assets/Fonts/NeoSansArabic.woff') format('opentype');
+  }
+@font-face {
+  font-family: 'NeoSansArabic-Bold';
+  src: url("../src/assets/Fonts/NeoSansArabic-Bold.woff") format("opentype");
+}
+@font-face {
+  font-family: 'NeoSansArabic-Black';
+  src: url("../src/assets/Fonts/NeoSansArabic-Black.woff") format("opentype");
+}
+@font-face {
+  font-family: 'Cocon®-Next-Arabic-Regular';
+  src: url("../src/assets/Fonts/Cocon®-Next-Arabic-Regular.woff") format("opentype");
+}
+
+@font-face {
+  font-family: 'Cocon®-Next-Arabic-Bold';
+  src: url("../src/assets/Fonts/Cocon®-Next-Arabic-Bold.woff") format("opentype");
+}
+
+
+
+
+
+/* 
+:root {
+
+
+  } */
+  
+  body {
+    margin: 0px;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  
+  }
+
