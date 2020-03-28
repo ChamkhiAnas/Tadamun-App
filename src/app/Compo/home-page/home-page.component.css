@@ -50,7 +50,9 @@
     background-size: cover;
   
 }
-
+.divbutton{
+    text-align: center;
+}
 .circle {
 
     border-radius: 50%;
@@ -222,11 +224,24 @@
 @media only screen and (max-width: 567px) {
 
 
+
     .firstPara{
         font-size: 14px;
         margin-right: 0px;
+        padding-top: 25px;
+        text-align: center;
 
     }
+    .content{
+        text-align: center;
+        padding-left: 11px;
+        padding-top: 10px;
+    }
+    .btn{
+    margin: 0 auto;
+    margin-top: 25px;
+    }
+
 
     .header1{
         display: none;
@@ -1010,4 +1025,223 @@ i{
 #box{
     width: 430px;
     height: 292px;
+}
+.card {
+    height: 365px;
+    border: none;
+    width: 365px;
+}
+.bl1{
+    padding-top: 27px;
+    align-self: start;
+}
+.bl2{
+    padding-right: 0px;
+    padding-top: 57px;
+    opacity: 0.8;
+}
+
+.card1{
+
+    background-color: white;
+    height: 368px;
+    width: 300px;
+    border-radius: none;
+    width: 24rem;
+  
+}
+
+.card2{
+    width: 20rem;
+    background-color: white;
+    height: 250px;
+    width: 300px;
+    border-radius: none;
+    opacity: 0.6;
+    margin-left: 150px;
+    
+}
+.card1>h1{
+    font-family: "Neo Sans Arabic";
+    font-size: 21px;
+    padding-top: 63px;
+    padding-left: 32px;
+    padding-right: 36px;
+    letter-spacing: 2p;
+    line-height: 27px;
+}
+.card2>h1{
+    font-family: "Neo Sans Arabic";
+    font-size: 21px;
+    padding-top: 63px;
+    padding-left: 32px;
+    padding-right: 36px;
+    letter-spacing: 2p;
+    line-height: 27px;
+}
+
+@media only screen and (max-width: 1130px) {
+
+ .wrapp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+ .card1{    
+     float: left;
+}
+.pic {
+    display: none;
+}
+
+}
+@media only screen and (max-width: 798px) {
+    .card2{
+        margin-left: 0px;
+    }
+
+    .head{
+        margin-top: 64px;;
+    }
+ 
+}
+@media only screen and (max-width: 753px) {
+
+    .faq{
+        margin-bottom: 564px;
+    }
+    .wrapp{
+        grid-template-columns: none;
+        grid-template-rows: 1fr;
+    }
+    .box{
+        height: 1100px;
+    }
+    .bl1{
+        margin: 0 auto;
+    }
+    .bl2{
+        margin:0 auto
+    }
+    .card2{
+        width: 25rem;
+    }
+}
+  
+@media only screen and (max-width: 555px) {
+
+    .head {
+        width: 100%;
+        font-size: 24px;
+        border-radius: 0px;
+
+    }
+}
+
+   
+.footer{
+    margin-top: 155px;
+}
+
+#topoffooter{
+
+    border-bottom: 1px solid gray;
+    background-color: none;
+    border-top: none;
+
+}
+
+.footerContain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 31px;
+}
+
+.item{
+    margin-bottom: 15px;
+    text-align: right;
+}
+.item:nth-child(1n) {
+    font-family: "NeoSansArabic-bold";
+    font-size: 20px;
+    color: #000000;
+    padding-top:4px
+  }
+.item:nth-child(4n) {
+    font-family: "Neo Sans Arabic";
+    font-size: 20px;
+    color: #000000;
+    padding-top:0px;
+
+  }
+  .item:nth-child(5n) {
+    text-align: center;
+    padding-top: 0px;
+
+
+  }
+
+.heart{
+    color:#ec5569;
+    font-size: 33px;
+}
+
+.li-items{
+
+    font-family: "Neo Sans Arabic";
+    font-size: 16px;
+}
+
+.icons{
+    font-size: 18px;
+    padding-right: 12px;
+    padding-top: 13px;
+}
+@media only screen and (max-width: 1130px) {
+
+    .footerContain{
+        padding-right: 7%;
+        padding-left: 7%;
+    }
+
+}
+
+@media only screen and (max-width: 1037px) {
+
+    .footerContain{
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+}
+
+
+@media only screen and (max-width: 660px) {
+
+    .card2>h1{
+        padding-right: 0px;
+    }
+
+    .footerContain{
+        grid-template-columns:none;
+        margin-top: 0px;
+        /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+    }
+    .item{
+        margin:0 auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer{
+        margin-top: 46px;
+    }
+    .li-items>div{
+        text-align: center;
+    }
+    .item:nth-child(5n) {
+        display: none;
+    
+      }
+
 }

@@ -67,6 +67,18 @@ export class HomePageComponent implements OnInit {
 
 
 
+  @ViewChild('card1', {static: false}) card1: ElementRef;
+  @ViewChild('card2', {static: false}) card2: ElementRef;
+
+  @ViewChild('heading1', {static: false}) heading1: ElementRef;
+
+
+  @ViewChild('faq', {static: false}) faq: ElementRef;
+
+  
+
+  
+
 
 
 
@@ -80,6 +92,7 @@ export class HomePageComponent implements OnInit {
 
   indexOfmom:number=0;
   i:number=0;
+  value:number;
   showing:boolean=false;
   show0:boolean=false;
   show1:boolean=false;
@@ -101,6 +114,7 @@ export class HomePageComponent implements OnInit {
 
   ngOnInit() {
     
+
   setInterval(() => {
 
     if(this.i>=4){
@@ -111,6 +125,10 @@ export class HomePageComponent implements OnInit {
     this.i=this.i+1
     }, 5000);
 
+  }
+  ngAfterViewInit() {
+    console.log('Values on ngAfterViewInit():');
+    console.log("value:", this.faq.nativeElement.offsetHeight);
   }
 
   momayazat(num){
@@ -161,9 +179,20 @@ export class HomePageComponent implements OnInit {
   this.minus0.nativeElement.style.display="block"
   this.show0=true;
   this.box1.nativeElement.style.marginBottom="0px";
+  this.value=this.faq.nativeElement.offsetHeight+100;
+  console.log("value lawla"+this.faq.nativeElement.offsetHeight)
+  this.faq.nativeElement.style.height=this.value+"px";
+  console.log("value tania"+this.faq.nativeElement.offsetHeight)
 
 
-  console.log(this.minus0.nativeElement.style.display)
+
+
+
+  // this.faq.nativeElement.style.height="510px";
+
+  // this.faq.nativeElement.style.height=this.value+"px";
+  // console.log("background color"+this.faq.nativeElement)
+
 
  }
 
@@ -174,9 +203,13 @@ export class HomePageComponent implements OnInit {
   this.show0=false;
   this.box1.nativeElement.style.marginBottom="25px";
 
+  this.value=this.faq.nativeElement.offsetHeight-100;
+  console.log("value lawla"+this.faq.nativeElement.offsetHeight)
+  this.faq.nativeElement.style.height=this.value+"px";
+  console.log("value tania"+this.faq.nativeElement.offsetHeight)
 
 
-  console.log(this.minus0.nativeElement.style.display)
+
 
  }
 
@@ -188,8 +221,14 @@ export class HomePageComponent implements OnInit {
   this.show1=true;
   this.box2.nativeElement.style.marginBottom="0px";
 
+  this.value=this.faq.nativeElement.offsetHeight+100;
+  console.log("value lawla"+this.faq.nativeElement.offsetHeight)
+  this.faq.nativeElement.style.height=this.value+"px";
+  console.log("value tania"+this.faq.nativeElement.offsetHeight)
 
-  console.log(this.minus0.nativeElement.style.display)
+
+
+
 
  }
 
@@ -202,7 +241,11 @@ export class HomePageComponent implements OnInit {
 
 
 
-  console.log(this.minus0.nativeElement.style.display)
+  
+  this.value=this.faq.nativeElement.offsetHeight-100;
+  console.log("value lawla"+this.faq.nativeElement.offsetHeight)
+  this.faq.nativeElement.style.height=this.value+"px";
+  console.log("value tania"+this.faq.nativeElement.offsetHeight)
 
  }
 
@@ -216,7 +259,13 @@ export class HomePageComponent implements OnInit {
   this.box3.nativeElement.style.marginBottom="0px";
 
 
-  console.log(this.minus2.nativeElement.style.display)
+  this.value=this.faq.nativeElement.offsetHeight+100;
+  console.log("value lawla"+this.faq.nativeElement.offsetHeight)
+  this.faq.nativeElement.style.height=this.value+"px";
+  console.log("value tania"+this.faq.nativeElement.offsetHeight)
+
+
+
 
  }
 
@@ -227,7 +276,12 @@ export class HomePageComponent implements OnInit {
   this.show2=false;
   this.box3.nativeElement.style.marginBottom="25px";
 
-  console.log(this.minus2.nativeElement.style.display)
+
+    
+  this.value=this.faq.nativeElement.offsetHeight-100;
+  console.log("value lawla"+this.faq.nativeElement.offsetHeight)
+  this.faq.nativeElement.style.height=this.value+"px";
+  console.log("value tania"+this.faq.nativeElement.offsetHeight)
 
  }
 
@@ -240,8 +294,12 @@ export class HomePageComponent implements OnInit {
   this.show3=true;
   this.box4.nativeElement.style.marginBottom="0px";
 
+  this.value=this.faq.nativeElement.offsetHeight+100;
+  console.log("value lawla"+this.faq.nativeElement.offsetHeight)
+  this.faq.nativeElement.style.height=this.value+"px";
+  console.log("value tania"+this.faq.nativeElement.offsetHeight)
 
-  console.log(this.minus3.nativeElement.style.display)
+
 
  }
 
@@ -252,7 +310,11 @@ export class HomePageComponent implements OnInit {
   this.show3=false;
   this.box4.nativeElement.style.marginBottom="25px";
 
-  console.log(this.minus3.nativeElement.style.display)
+    
+  this.value=this.faq.nativeElement.offsetHeight-100;
+  console.log("value lawla"+this.faq.nativeElement.offsetHeight)
+  this.faq.nativeElement.style.height=this.value+"px";
+  console.log("value tania"+this.faq.nativeElement.offsetHeight)
 
  }
 
@@ -265,8 +327,11 @@ export class HomePageComponent implements OnInit {
   this.show4=true;
   this.box5.nativeElement.style.marginBottom="0px";
 
+  this.value=this.faq.nativeElement.offsetHeight+100;
+  console.log("value lawla"+this.faq.nativeElement.offsetHeight)
+  this.faq.nativeElement.style.height=this.value+"px";
+  console.log("value tania"+this.faq.nativeElement.offsetHeight)
 
-  console.log(this.minus3.nativeElement.style.display)
 
  }
 
@@ -277,8 +342,11 @@ export class HomePageComponent implements OnInit {
   this.show4=false;
   this.box5.nativeElement.style.marginBottom="25px";
 
-  console.log(this.minus3.nativeElement.style.display)
-
+    
+  this.value=this.faq.nativeElement.offsetHeight-100;
+  console.log("value lawla"+this.faq.nativeElement.offsetHeight)
+  this.faq.nativeElement.style.height=this.value+"px";
+  console.log("value tania"+this.faq.nativeElement.offsetHeight)
  }
 
  plu5(){
@@ -290,7 +358,11 @@ export class HomePageComponent implements OnInit {
   this.box6.nativeElement.style.marginBottom="0px";
 
 
-  console.log(this.minus3.nativeElement.style.display)
+  this.value=this.faq.nativeElement.offsetHeight+100;
+  console.log("value lawla"+this.faq.nativeElement.offsetHeight)
+  this.faq.nativeElement.style.height=this.value+"px";
+  console.log("value tania"+this.faq.nativeElement.offsetHeight)
+
 
  }
 
@@ -301,8 +373,11 @@ export class HomePageComponent implements OnInit {
   this.show5=false;
   this.box6.nativeElement.style.marginBottom="25px";
 
-  console.log(this.minus3.nativeElement.style.display)
-
+    
+  this.value=this.faq.nativeElement.offsetHeight-100;
+  console.log("value lawla"+this.faq.nativeElement.offsetHeight)
+  this.faq.nativeElement.style.height=this.value+"px";
+  console.log("value tania"+this.faq.nativeElement.offsetHeight)
  }
 
  plu6(){
@@ -314,7 +389,11 @@ export class HomePageComponent implements OnInit {
   this.box7.nativeElement.style.marginBottom="0px";
 
 
-  console.log(this.minus3.nativeElement.style.display)
+  this.value=this.faq.nativeElement.offsetHeight+100;
+  console.log("value lawla"+this.faq.nativeElement.offsetHeight)
+  this.faq.nativeElement.style.height=this.value+"px";
+  console.log("value tania"+this.faq.nativeElement.offsetHeight)
+
 
  }
 
@@ -325,7 +404,11 @@ export class HomePageComponent implements OnInit {
   this.show6=false;
   this.box7.nativeElement.style.marginBottom="25px";
 
-  console.log(this.minus3.nativeElement.style.display)
+    
+  this.value=this.faq.nativeElement.offsetHeight-100;
+  console.log("value lawla"+this.faq.nativeElement.offsetHeight)
+  this.faq.nativeElement.style.height=this.value+"px";
+  console.log("value tania"+this.faq.nativeElement.offsetHeight)
 
  }
 
@@ -340,7 +423,11 @@ export class HomePageComponent implements OnInit {
   this.box8.nativeElement.style.marginBottom="0px";
 
 
-  console.log(this.minus3.nativeElement.style.display)
+  this.value=this.faq.nativeElement.offsetHeight+100;
+  console.log("value lawla"+this.faq.nativeElement.offsetHeight)
+  this.faq.nativeElement.style.height=this.value+"px";
+  console.log("value tania"+this.faq.nativeElement.offsetHeight)
+
 
  }
 
@@ -351,8 +438,11 @@ export class HomePageComponent implements OnInit {
   this.show7=false;
   this.box8.nativeElement.style.marginBottom="25px";
 
-  console.log(this.minus3.nativeElement.style.display)
-
+    
+  this.value=this.faq.nativeElement.offsetHeight-100;
+  console.log("value lawla"+this.faq.nativeElement.offsetHeight)
+  this.faq.nativeElement.style.height=this.value+"px";
+  console.log("value tania"+this.faq.nativeElement.offsetHeight)
  }
 
 
@@ -396,7 +486,25 @@ hid(){
 
 }
 
+mouseEnter(){
+  this.card1.nativeElement.style.height="320px";
+  this.card1.nativeElement.style.opacity="0.6";
+  this.card1.nativeElement.style.marginTop="40px";
+  this.heading1.nativeElement.style.paddingTop="30px";
 
+
+  this.card2.nativeElement.style.height="368px"
+  this.card2.nativeElement.style.opacity="100%";
+
+
+}
+
+mouseOut(){
+  this.card1.nativeElement.style.height="368px";
+  this.card1.nativeElement.style.opacity="100%";
+  this.card1.nativeElement.style.marginTop="0px";
+  this.card2.nativeElement.style.height="320px"
+}
 
 
 
